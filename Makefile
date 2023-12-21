@@ -19,7 +19,7 @@ BIN ?= velero-plugin-for-microsoft-azure
 PKG := github.com/vmware-tanzu/velero-plugin-for-microsoft-azure
 
 # Where to push the docker image.
-REGISTRY ?= velero
+REGISTRY ?= catalogicsoftware
 
 # Image name
 IMAGE ?= $(REGISTRY)/$(BIN)
