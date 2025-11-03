@@ -36,7 +36,7 @@ VELERO_DOCKERFILE ?= Dockerfile
 local : ARCH ?= $(shell go env GOOS)-$(shell go env GOARCH)
 ARCH ?= linux-amd64
 
-VERSION ?= main
+VERSION ?= 1.10.0.1
 
 TAG_LATEST ?= false
 
